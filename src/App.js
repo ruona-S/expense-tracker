@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import styled from "styled-components"
-import Header from "./components/Header";
 import Nav from './components/Nav';
 import ExpenseCard from "./components/ExpenseCard";
 import ViewExpenses from './components/ViewExpenses';
