@@ -17,8 +17,10 @@ function ExpenseCard({ name, onAddExpenseClick, onViewExpenseClick, amount, max 
       <Card>
         <CardTitle>
           <h3>{name}</h3>
-          <Budget>{currencyFormatter.format(max)} / </Budget>
-          <Spent>{currencyFormatter.format(amount)}</Spent>
+          <div>
+            <Budget>{currencyFormatter.format(max)} / </Budget>
+            <Spent>{currencyFormatter.format(amount)}</Spent>
+          </div>
         </CardTitle>
         <ViewButton onClick={onViewExpenseClick}>View Expenses</ViewButton>
         <ViewButton onClick={onAddExpenseClick} >Add Expense</ViewButton>

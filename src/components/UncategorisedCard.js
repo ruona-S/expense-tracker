@@ -41,7 +41,7 @@ const Card = styled.div`
   text-align: center;
   border: solid 1px #eee;
   margin-top: 2em;
-  height: 15rem;
+  height: 20rem;
   color: white;
   border-radius: 15px;
   background-color: rgba(123, 104, 238, 0.3);
@@ -71,6 +71,7 @@ const ViewButton = styled.button`
   font-size: 1.2rem;
   cursor: pointer;
   margin-right: .3em;
+  margin-bottom: .3em;
 
   &:hover {
     background-color: rgb(230, 230, 250);
