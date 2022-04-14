@@ -57,7 +57,7 @@ const CardTitle = styled.div`
   margin-bottom: 3em;
   
   h3 {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
   h5 {
     margin-top: .3em;
