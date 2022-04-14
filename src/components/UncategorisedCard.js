@@ -17,7 +17,7 @@ function UncategorisedCard({ name, onAddExpenseClick, onViewExpenseClick, amount
       <Card>
         <CardTitle>
           <h3>{name}</h3>
-          <h5>Spent: {currencyFormatter.format(amount)}</h5>
+          <h5>{currencyFormatter.format(amount)}</h5>
         </CardTitle>
         <ViewButton onClick={onViewExpenseClick}>View Expenses</ViewButton>
         <ViewButton onClick={onAddExpenseClick} >Add Expense</ViewButton>
