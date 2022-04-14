@@ -74,6 +74,7 @@ const ViewButton = styled.button`
   font-size: 1.2rem;
   cursor: pointer;
   margin-right: .3em;
+  margin-bottom: .3em;
 
   &:hover {
     background-color: rgb(230, 230, 250);

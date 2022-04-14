@@ -102,7 +102,7 @@ const Box = styled.form`
      margin-bottom: 2em;
 
      h2 {
-        font-size: 1.8rem;
+        font-size: 1.4rem;
         margin-top: .3em;
      }
   }
