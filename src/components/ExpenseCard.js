@@ -42,7 +42,7 @@ const Card = styled.div`
   text-align: center;
   border: solid 1px #eee;
   margin-top: 2em;
-  height: 15rem;
+  height: 20rem;
   color: white;
   border-radius: 15px;
   background-color: rgba(123, 104, 238, 0.3);
