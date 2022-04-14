@@ -17,8 +17,8 @@ function ExpenseCard({ name, onAddExpenseClick, onViewExpenseClick, amount, max 
       <Card>
         <CardTitle>
           <h3>{name}</h3>
-          <h5>Budget: {currencyFormatter.format(max)}</h5>
-          <h5>Spent: {currencyFormatter.format(amount)}</h5>
+          <Budget>{currencyFormatter.format(max)} / </Budget>
+          <Spent>{currencyFormatter.format(amount)}</Spent>
         </CardTitle>
         <ViewButton onClick={onViewExpenseClick}>View Expenses</ViewButton>
         <ViewButton onClick={onAddExpenseClick} >Add Expense</ViewButton>
@@ -59,9 +59,13 @@ const CardTitle = styled.div`
   h3 {
     font-size: 1.4rem;
   }
-  h5 {
-    margin-top: .3em;
-  }
+`
+const Budget = styled.div`
+  font-size: 1.4rem;
+  opacity: 0.8;
+`
+const Spent = styled.div`
+  font-size: 1.8rem;
 `
 
 const ViewButton = styled.button`
